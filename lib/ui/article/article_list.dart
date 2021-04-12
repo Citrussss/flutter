@@ -95,6 +95,7 @@ class _State extends State {
           )
         ],
       ),
+      resizeToAvoidBottomInset: false,
     );
   }
 

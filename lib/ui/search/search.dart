@@ -15,6 +15,7 @@ class _State extends State<Search> {
       appBar: AppBar(
         title: Text("搜索"),
       ),
+      resizeToAvoidBottomInset: false,
     );
   }
 }

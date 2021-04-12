@@ -23,6 +23,7 @@ class _State extends State {
       body: Container(
         child: WebView(
           initialUrl:_data.link,
+          javascriptMode: JavascriptMode.unrestricted,
         ),
       ),
     );
